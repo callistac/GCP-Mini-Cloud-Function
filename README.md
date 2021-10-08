@@ -35,3 +35,8 @@ There are 8 different possible Cloud Function triggers:
 3. Cloud pub/sub
 4. Firestore
 5. Firebase (3 possible options)
+
+#### Cloud Storage
+There are 4 types of sub-triggers described [here](https://cloud.google.com/functions/docs/calling/storage)
+
+You can simply select the trigger to be storage, link the cloud function to a cloud storage bucket, and then deploy your function. To test whether your clooud function works as expected, uplooad a file to the storage bucket and then click on the cloud function and look at the usage. 
